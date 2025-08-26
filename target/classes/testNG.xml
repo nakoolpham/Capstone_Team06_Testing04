@@ -1,0 +1,20 @@
+<suite name = "Test Suite">
+    <test name = "Test">
+<!--        <parameter name = "browser" value="chorme"/>-->
+<!--        <classes>-->
+<!--            <class name ="">-->
+<!--                <methods>-->
+<!--                    <include name =""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="">-->
+<!--                <methods>-->
+<!--                    <include name=""/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+        <listeners>
+            <listener class-name="listeners.SimpleListener"/>
+        </listeners>
+    </test>
+</suite>
