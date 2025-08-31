@@ -1,0 +1,16 @@
+[INFO] Running LoginTest.testValidLogin
+[INFO] Opened browser and navigated to login page
+[INFO] Entered valid credentials and clicked login
+[PASS] User successfully logged in
+
+[INFO] Running LoginTest.testInvalidLogin
+[INFO] Entered invalid credentials
+[FAIL] Error message displayed: 'Invalid email or password'
+
+[INFO] Running RegisterTest.testValidRegister
+[INFO] Filled registration form with valid data
+[PASS] User successfully registered
+
+[INFO] Running RegisterTest.testInvalidRegister
+[INFO] Filled registration form with invalid data
+[FAIL] Error messages displayed for invalid fields
